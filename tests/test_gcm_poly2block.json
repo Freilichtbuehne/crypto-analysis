@@ -1,0 +1,5 @@
+{
+    "action": "gcm-poly2block",
+    "exponents": [ 4, 8, 15, 16, 23, 42 ],
+    "block": "CIGBAAAgAAAAAAAAAAAAAA=="
+}

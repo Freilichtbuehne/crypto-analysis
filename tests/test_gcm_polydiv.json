@@ -1,0 +1,37 @@
+[
+    {
+        "a": [
+            "gAAAAAAAAAAAAAAAAAAAAA=="
+        ],
+        "action": "gcm-poly-div",
+        "b": [
+            "gAAAAAAAAAAAAAAAAAAAAA=="
+        ],
+        "result": [
+            "gAAAAAAAAAAAAAAAAAAAAA=="
+        ]
+    },
+    {
+        "a": [
+            "gAAAAAAAAAAAAAAAAAAAAA=="
+        ],
+        "action": "gcm-poly-div",
+        "b": [
+            "AAAAAAAAAAAAAAAAAAAAAA==",
+            "gAAAAAAAAAAAAAAAAAAAAA=="
+        ],
+        "result": []
+    },
+    {
+        "a": [
+            "gAAAAAAAAAAAAAAAAAAAAA=="
+        ],
+        "action": "gcm-poly-div",
+        "b": [
+            "AAAAAAAAAAAAAAAAAAAAAA==",
+            "AAAAAAAAAAAAAAAAAAAAAA==",
+            "gAAAAAAAAAAAAAAAAAAAAA=="
+        ],
+        "result": []
+    }
+]

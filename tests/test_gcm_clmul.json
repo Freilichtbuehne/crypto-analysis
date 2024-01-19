@@ -1,0 +1,20 @@
+[
+    {
+        "action": "gcm-clmul",
+        "a": "jjYoD6kfN+/Y/g4Hl991Cw==",
+        "b": "tQsToM4bzOQtot/1w4x8PA==",
+        "a_times_b": "khnvYitpTW8Sv3ZUmFqasw=="
+    },
+    {
+        "a": "QAAAAAAAAAAAAAAAAAAAAA==",
+        "action": "gcm-clmul",
+        "b": "AAAAAAAAAAAAAAAAAAAAAQ==",
+        "a_times_b": "4QAAAAAAAAAAAAAAAAAAAA=="
+    },
+    {
+        "a": "AAAAAAAAAAAAAAAAAAAAAQ==",
+        "action": "gcm-clmul",
+        "b": "QAAAAAAAAAAAAAAAAAAAAA==",
+        "a_times_b": "4QAAAAAAAAAAAAAAAAAAAA=="
+    }
+]

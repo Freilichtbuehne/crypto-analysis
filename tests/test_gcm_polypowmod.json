@@ -1,0 +1,53 @@
+[
+    {
+        "action": "gcm-poly-powmod",
+        "base": [
+            "BAAAAAAAAAAAAAAAAAAAAA==",
+            "AgAAAAAAAAAAAAAAAAAAAA==",
+            "AcAAAAAAAAAAAAAAAAAAAA=="
+        ],
+        "exponent": 1000000,
+        "modulo": [
+            "JGAAAAAAAAAAAAAAAAAAAA==",
+            "AAgAAAAAAAAAAAAAAAAAAA==",
+            "EUAAAAAAAAAAAAAAAAAAAA=="
+        ],
+        "result": [
+            "MsGegcpw1DgpcRIVrFtD0w==",
+            "KAqoMEtc+VfvBzZCRioQNQ=="
+        ]
+    },
+    {
+        "action": "gcm-poly-powmod",
+        "base": [
+            "gAAAAAAAAAAAAAAAAAAAAA=="
+        ],
+        "exponent": 52420667,
+        "modulo": [
+            "gAAAAAAAAAAAAAAAAAAAAA=="
+        ],
+        "result": []
+    },
+    {
+        "action": "gcm-poly-powmod",
+        "base": [
+            "gAAAAAAAAAAAAAAAAAAAAA=="
+        ],
+        "exponent": 83244928,
+        "modulo": [
+            "CdVexJmeMSi0OjQz2hbcCQ=="
+        ],
+        "result": []
+    },
+    {
+        "action": "gcm-poly-powmod",
+        "base": [
+            "gAAAAAAAAAAAAAAAAAAAAA=="
+        ],
+        "exponent": 94279094,
+        "modulo": [
+            "f9j2488QT5HH0/+cpfPTiA=="
+        ],
+        "result": []
+    }
+]

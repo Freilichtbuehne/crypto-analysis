@@ -1,0 +1,35 @@
+#!/usr/bin/python3
+
+import sys, os, json, importlib
+
+args = sys.argv[1:]
+assert len(args) != 0, "Missing argument #1: input file or raw json"
+
+input_file_or_data = args[0]
+
+json_object = None
+
+# Check if file exists
+if os.path.exists(input_file_or_data):
+    with open(input_file_or_data, "r") as json_file:
+        json_object = json.load(json_file)
+
+# Check if input is valid JSON
+else:
+    json_object = json.loads(input_file_or_data)
+
+# Check if action exists
+assert "action" in json_object, "Missing JSON value 'action'"
+action = json_object["action"]
+
+# We convert '-' to '_' to allow for module names
+action = action.replace("-", "_")
+
+# Load appropriate module
+module = importlib.import_module(f"actions.{action}")
+
+# Contruct the output JSON format
+output_JSON_object = module.load(json_object)
+
+# Print the output of the specified module to stdout
+print(json.dumps(output_JSON_object, indent=2))

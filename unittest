@@ -1,0 +1,32 @@
+#!/usr/bin/python3
+
+import unittest, sys, importlib
+
+# Avaliable tests
+tests = {
+    "bytenigma": "tests.bytenigma",
+    "padding-oracle-attack": "tests.padding_oracle_attack",
+    "gcm": "tests.gcm"
+}
+
+# Get the module to test
+args = sys.argv[1:]
+assert (
+    len(args) != 0
+), f"Missing argument #1: test file, avaliable tests: {', '.join(tests.keys())}"
+input_test_name = args[0]
+
+# Check if test exists
+assert (
+    input_test_name in tests
+), f"Test '{input_test_name}' not found, avaliable tests: {', '.join(tests.keys())}"
+
+# Dynamically import the test module
+selected_test = importlib.import_module(f"{tests[input_test_name]}")
+
+loader = unittest.TestLoader()
+runner = unittest.TextTestRunner()
+
+print(f"[+] Running test '{input_test_name}'")
+test_suite = loader.loadTestsFromModule(selected_test)
+runner.run(test_suite)

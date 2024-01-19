@@ -1,0 +1,92 @@
+[
+    {
+        "tc":{
+            "action": "gcm-encrypt",
+            "associated_data": "",
+            "key": "SenwoRJmfL8gAe0sngF85w==",
+            "nonce": "vNPF0+9BRPRT8h8c",
+            "plaintext": "Pnl7uQDXIj0SyjQHFaDnzsUdKcZtYofQ6U0z0zWo+sseFoAhcaQPlZnH"
+        },
+        "expected_result": {
+            "H": "VoaShFt7WS4onDJXZ7sGjA==",
+            "Y0": "vNPF0+9BRPRT8h8cAAAAAQ==",
+            "auth_tag": "PWTmvWi+rALTOz0Qtnui7Q==",
+            "ciphertext": "itWg8UPoYiupaHSiHTowSzS+lScwLE0UWgcmQ8C02MGdV4L4D51DRTP1"
+        }
+    },
+    {
+        "tc":{
+            "action": "gcm-encrypt",
+            "associated_data": "",
+            "key": "DZ1bGvCm1c8alLqLjt3s0A==",
+            "nonce": "Ahn0dE9AoaHoWuz9",
+            "plaintext": "sDQZSJEKiC6rkYqUcq9x8gWnAdtGZgXUhKmuQg=="
+        },
+        "expected_result": {
+            "H": "D745W3DYsWGd87TmdwN5Gw==",
+            "Y0": "Ahn0dE9AoaHoWuz9AAAAAQ==",
+            "auth_tag": "2IX+4fD9pVefykhMKBVPMQ==",
+            "ciphertext": "xGPuP/6s5IZTlH6ltgkusirg4vf2rbGf9D190Q=="
+        }
+    },
+    {
+        "tc":{
+            "action": "gcm-encrypt",
+            "associated_data": "",
+            "key": "qHbvTMLj/tgbakGiGEAfqA==",
+            "nonce": "tJlSnemIJmGwZGgC",
+            "plaintext": "qUua8CK6I01x6Fyi0cWfzQoMJ6aqtmHr/bh2lhDMMcrGiGTs6fBnvot6Qg=="
+        },
+        "expected_result": {
+            "H": "K2PVsNxEC+5UUHV1KmDVRA==",
+            "Y0": "tJlSnemIJmGwZGgCAAAAAQ==",
+            "auth_tag": "FM2qvvlwVXRZkwSbQhBGww==",
+            "ciphertext": "wtrxldLeKASnVMM0OxM+DM0j6yc0XVHW2d+Ybf6fan/P5Rdw++T+EA72fQ=="
+        }
+    },
+    {
+        "tc":{
+            "action": "gcm-encrypt",
+            "associated_data": "ejc9azr7LICPLTVJ0xGfxw==",
+            "key": "VJi4ITUnf5EeDhZEgGUzfw==",
+            "nonce": "YluVQ3x+6R8D941l",
+            "plaintext": ""
+        },
+        "expected_result": {
+            "H": "7TLOWfE3FX/A2VUTDicqRQ==",
+            "Y0": "YluVQ3x+6R8D941lAAAAAQ==",
+            "auth_tag": "5gje1Ju8U4fKeEJpiY1vVw==",
+            "ciphertext": ""
+        }
+    },
+    {
+        "tc":{
+            "action": "gcm-encrypt",
+            "associated_data": "rrfy4LTsLKp+Afv6",
+            "key": "lR3JqZ7SWXsrlVOh3HbPBA==",
+            "nonce": "bQweUh/Ed+gxSGZj",
+            "plaintext": ""
+        },
+        "expected_result": {
+            "H": "MLQH/UxAUxTev+Gkk690gg==",
+            "Y0": "bQweUh/Ed+gxSGZjAAAAAQ==",
+            "auth_tag": "pR51VCIrSJD0Rl4K/QwYjQ==",
+            "ciphertext": ""
+        }
+    },
+    {
+        "tc":{
+            "action": "gcm-encrypt",
+            "associated_data": "zVTTnyzEH0q1meBsJlrbxjx7EInraNVVWyBGlZ/8zXz/kw==",
+            "key": "g7Of9DIFtWjAbj9DX2TG9Q==",
+            "nonce": "YpLlEhnkvYinp6av",
+            "plaintext": ""
+        },
+        "expected_result": {
+            "H": "sMqfiKnLDJAOJnrwVqnz2g==",
+            "Y0": "YpLlEhnkvYinp6avAAAAAQ==",
+            "auth_tag": "bHWSgHYGRNDGnvRC1zTfzg==",
+            "ciphertext": ""
+        }
+    }
+]

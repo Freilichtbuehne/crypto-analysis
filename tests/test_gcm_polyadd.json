@@ -1,0 +1,56 @@
+[
+    {
+        "action": "gcm-poly-add",
+        "a": [
+            "BAAAAAAAAAAAAAAAAAAAAA==",
+            "AgAAAAAAAAAAAAAAAAAAAA==",
+            "AcAAAAAAAAAAAAAAAAAAAA=="
+        ],
+        "b": [
+            "JGAAAAAAAAAAAAAAAAAAAA==",
+            "AAgAAAAAAAAAAAAAAAAAAA==",
+            "EUAAAAAAAAAAAAAAAAAAAA=="
+        ],
+        "result": [
+            "IGAAAAAAAAAAAAAAAAAAAA==",
+            "AggAAAAAAAAAAAAAAAAAAA==",
+            "EIAAAAAAAAAAAAAAAAAAAA=="
+        ]
+    },
+    {
+        "a": [
+            "gAAAAAAAAAAAAAAAAAAAAA=="
+        ],
+        "action": "gcm-poly-add",
+        "b": [
+            "gAAAAAAAAAAAAAAAAAAAAA=="
+        ],
+        "result": []
+    },
+    {
+        "a": [
+            "AAAAAAAAAAAAAAAAAAAAAA==",
+            "gAAAAAAAAAAAAAAAAAAAAA=="
+        ],
+        "action": "gcm-poly-add",
+        "b": [
+            "AAAAAAAAAAAAAAAAAAAAAA==",
+            "gAAAAAAAAAAAAAAAAAAAAA=="
+        ],
+        "result": []
+    },
+    {
+        "a": [
+            "AAAAAAAAAAAAAAAAAAAAAA==",
+            "AAAAAAAAAAAAAAAAAAAAAA==",
+            "gAAAAAAAAAAAAAAAAAAAAA=="
+        ],
+        "action": "gcm-poly-add",
+        "b": [
+            "AAAAAAAAAAAAAAAAAAAAAA==",
+            "AAAAAAAAAAAAAAAAAAAAAA==",
+            "gAAAAAAAAAAAAAAAAAAAAA=="
+        ],
+        "result": []
+    }
+]

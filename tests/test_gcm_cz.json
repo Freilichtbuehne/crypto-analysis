@@ -1,0 +1,343 @@
+[
+    {
+        "internal": {
+            "key": "ezR/d2MJOKS5n934FOzSjQ=="
+        },
+        "tc": {
+            "action": "gcm-recover",
+            "nonce": "5AEQFgptieCwyJfG",
+            "msg1": {
+                "ciphertext": "kYRjt/psRcpYNMKAxnTx7/GC9jtEak8=",
+                "associated_data": "",
+                "auth_tag": "eljtsxhBmaZZpmYQFFg3+w=="
+            },
+            "msg2": {
+                "ciphertext": "nacMQS3TQmbIvhZ5rtNL/b5m4YvR1vQm",
+                "associated_data": "2bGxF5cQnQ==",
+                "auth_tag": "RIXL4rH3kVS3egxNTUfTEQ=="
+            },
+            "msg3": {
+                "ciphertext": "uR1GvdunBGfiyyUBi7Ly3lIl",
+                "associated_data": "/K0s6vEU4bPQkJDkgA==",
+                "auth_tag": "+SM7OZgr2BXaCcOf0GUZwA=="
+            },
+            "msg4": {
+                "ciphertext": "/DN+vkANVbRvdUju",
+                "associated_data": "CKSuAIA="
+            }
+        },
+        "expected_result": {
+            "msg4_tag": "neV94fxrqeVhCdpFNBlhUw=="
+        }
+    },
+    {
+        "internal": {
+            "key": "6PF49MhVIBIXb7wIMrippg=="
+        },
+        "tc": {
+            "action": "gcm-recover",
+            "nonce": "7P5KcQDnVer+JDjC",
+            "msg1": {
+                "ciphertext": "jM8737gdw1gR7eC9y+xq8kk1BTXds+tprm3c3Oue",
+                "associated_data": "FXnpIHY=",
+                "auth_tag": "bk8soQNpxIWFyOo0rW67nw=="
+            },
+            "msg2": {
+                "ciphertext": "jUMgae0wC1GZ4/JviB8=",
+                "associated_data": "E/4=",
+                "auth_tag": "amj3SLs6BJeJMeJ9qe17rA=="
+            },
+            "msg3": {
+                "ciphertext": "ezORuEzkNey949NuNPO1UMjjixcwh7bRkPe+NxftdqitdQ==",
+                "associated_data": "94MH7LQ/B+9s1w==",
+                "auth_tag": "S0ILck65AGLRPsIQMCcn8A=="
+            },
+            "msg4": {
+                "ciphertext": "AzG3BPw+c9MbmrBTPBk7xQ==",
+                "associated_data": "EKl8"
+            }
+        },
+        "expected_result": {
+            "msg4_tag": "GlBd2t2Ez4jqccG3vA+09Q=="
+        }
+    },
+    {
+        "internal": {
+            "key": "mMK+AzjHmMc5dkP1B+TGLQ=="
+        },
+        "tc": {
+            "action": "gcm-recover",
+            "nonce": "6nsHEqZ3Zh8UXmAp",
+            "msg1": {
+                "ciphertext": "tFLmq+qAfI0q1DOZ",
+                "associated_data": "tQdj",
+                "auth_tag": "mPXYNYer4bLjPWavhYGzew=="
+            },
+            "msg2": {
+                "ciphertext": "L/Vvhj7s5P4I0Pl0P0OalVn52rNa5Qa1rg==",
+                "associated_data": "l9DPSv4y",
+                "auth_tag": "Gda2zx4Vsb4o1YZBfQ30RA=="
+            },
+            "msg3": {
+                "ciphertext": "5Gmr4MTWlQFsij9rt0JffJ7P4tw5fGw=",
+                "associated_data": "kQ==",
+                "auth_tag": "KcbvUHI/VQMCy2UGUUXRlQ=="
+            },
+            "msg4": {
+                "ciphertext": "W16pfni3gbKSQTrmmPgYFA35lZlAbJgAKtYY168=",
+                "associated_data": "lRaDn2uNayAcWug="
+            }
+        },
+        "expected_result": {
+            "msg4_tag": "fMIHrcoTUcLLANvxb25Blg=="
+        }
+    },
+    {
+        "internal": {
+            "key": "meiqBaycKTNIyQ/6F+ryOA=="
+        },
+        "tc": {
+            "action": "gcm-recover",
+            "nonce": "Nzsh6Yj+i4bouKo5",
+            "msg1": {
+                "ciphertext": "XT9dyntxdlM6gkvqi1uv7DBx4qtN05vno5/4ZTMYExm1WzG1",
+                "associated_data": "b1e3G4Wk58aqi/dsDQ==",
+                "auth_tag": "F/CewC++YO9URF2fVA82kg=="
+            },
+            "msg2": {
+                "ciphertext": "aOHDIZQFhGT6jj0QSyWi7Zmnk2mEQvXune66pgLYnlCO",
+                "associated_data": "QCSWZJUPpMATbeHpUS6LVaze",
+                "auth_tag": "ZF6FpHLHBkYfNWp9I5qUUA=="
+            },
+            "msg3": {
+                "ciphertext": "mDxTmnesZA2+Hk0uw+3no5FcS+u9O8jYjDeHT/Q=",
+                "associated_data": "/AY=",
+                "auth_tag": "pwsH0sGTMz7vD4LBrHfCwQ=="
+            },
+            "msg4": {
+                "ciphertext": "7WMTOk9nZmSThdc6p8e42k8J6qyaMnrUd3/PIk6ZfJ3F3IFOIGU=",
+                "associated_data": "Ar47qmSzyfAaYBFq"
+            }
+        },
+        "expected_result": {
+            "msg4_tag": "mmA3V0PEI0ynos8BltRVhw=="
+        }
+    },
+    {
+        "internal": {
+            "key": "UvUgG8/yGkbS8gjBIiR1/A=="
+        },
+        "tc": {
+            "action": "gcm-recover",
+            "nonce": "btGK/jKaItHKhipr",
+            "msg1": {
+                "ciphertext": "8Qm8mvJdL+FOhR3fh7k+3e0t77xmeFm0Blri6J+R27tkLRyoujiA",
+                "associated_data": "OGWpFpei",
+                "auth_tag": "r7KivUvHXCbItLazKtCM4w=="
+            },
+            "msg2": {
+                "ciphertext": "x1pP5jylEiVIv3mwarOICks=",
+                "associated_data": "xFIl2iW0jrhicx28Sg==",
+                "auth_tag": "S/RpxPtaYrWraWCLVoTvvg=="
+            },
+            "msg3": {
+                "ciphertext": "i+rzm9ovguPzhqDhDHV89n+7Mui7AN1n4QasCVuTwgCuQ3R+WAfx",
+                "associated_data": "j9tFxxiKO5oHYtw6NSvq",
+                "auth_tag": "Y8FBlgG/Josn/zAERIqIbw=="
+            },
+            "msg4": {
+                "ciphertext": "GjevRgPxdw+Z0QA1uw==",
+                "associated_data": "Fb4="
+            }
+        },
+        "expected_result": {
+            "msg4_tag": "7DlQmG9x0DFhLXLmCmzkTQ=="
+        }
+    },
+    {
+        "internal": {
+            "key": "5vxiBsQJsw+E1ZKM4CLaXg=="
+        },
+        "tc": {
+            "action": "gcm-recover",
+            "nonce": "YgVkgVjczfvKif5O",
+            "msg1": {
+                "ciphertext": "oeN7DnMC1DadhhirtsYhwA==",
+                "associated_data": "",
+                "auth_tag": "6YlnJd8FgCIg2Rs61w2zLQ=="
+            },
+            "msg2": {
+                "ciphertext": "Vt4y7xkjZ2RRMiHt",
+                "associated_data": "LF6YaGtUBt6lxnk=",
+                "auth_tag": "h+t/ZEdG7W+YvUHdFBmM8g=="
+            },
+            "msg3": {
+                "ciphertext": "IwlH/1EGZjNUrc3xxGT3",
+                "associated_data": "fbSybt/JcQ==",
+                "auth_tag": "qYFdJSJMNAIbE2eFHV07Tg=="
+            },
+            "msg4": {
+                "ciphertext": "sUZvr4jMe3FaQz/UNQjoZ0iuKLTIk5nbeQ==",
+                "associated_data": "KwIa9LOO+7UeTw1eXQ=="
+            }
+        },
+        "expected_result": {
+            "msg4_tag": "8Ai7ERVsz55gY/bGA15cMg=="
+        }
+    },
+    {
+        "internal": {
+            "key": "9ezPSM5/9bnDFknlgLLBKA=="
+        },
+        "tc": {
+            "action": "gcm-recover",
+            "nonce": "2J7o0zTvVmdyNSAq",
+            "msg1": {
+                "ciphertext": "J7Dkzkl6wg9Wups=",
+                "associated_data": "L0JDyg==",
+                "auth_tag": "7MYLbNZrNgnxK1qX8yrBRQ=="
+            },
+            "msg2": {
+                "ciphertext": "NpbwA2MHnoim6zgOd437QQ==",
+                "associated_data": "x9m5WtCEVH4=",
+                "auth_tag": "RS2/N2Nf5BQuhY2l9jlJlA=="
+            },
+            "msg3": {
+                "ciphertext": "6OYBAJGtjUMhmyUfKCwatMNCkJgiFQcWj0Fn3Cm8n5womjivCNqa",
+                "associated_data": "/UdRsFs=",
+                "auth_tag": "7BtS6beQxTtM1ftN7Fzugw=="
+            },
+            "msg4": {
+                "ciphertext": "fuQsqR9arjYko4Mdf2gNK83fE54AJaxeflCh",
+                "associated_data": "6KHgBA=="
+            }
+        },
+        "expected_result": {
+            "msg4_tag": "o6r0L817iBmEgCNmxL+l4w=="
+        }
+    },
+    {
+        "internal": {
+            "key": "Go+e1OJ5LImgDXUZMO5m3w=="
+        },
+        "tc": {
+            "action": "gcm-recover",
+            "nonce": "nskCvArHlNx3Geh8",
+            "msg1": {
+                "ciphertext": "RQciAH+jnY92auBmswPGBfh6hnzdB3azxWFy70LksDSuFw==",
+                "associated_data": "h9Hh8a19VGc=",
+                "auth_tag": "hMYl0PmNYV+Q7ECaMQK7lw=="
+            },
+            "msg2": {
+                "ciphertext": "LD+hW/+4XCVvODIx5J8pPiQ=",
+                "associated_data": "hNj7XIrCBipS/Y48kOhpVYrSGtM=",
+                "auth_tag": "OY/bZCVoQRkHyif8Kff1oA=="
+            },
+            "msg3": {
+                "ciphertext": "dJ4qdAmrXqKeNRos3C39AUIWRP3y",
+                "associated_data": "9ZnhNw==",
+                "auth_tag": "XlTZ4IfkvAFSMGQ37cyIVQ=="
+            },
+            "msg4": {
+                "ciphertext": "YJWNeJZ1LWXTFLH24v0=",
+                "associated_data": "MXNmOIJvljcTDg=="
+            }
+        },
+        "expected_result": {
+            "msg4_tag": "vU9NElZodqSI2Os4zflYsQ=="
+        }
+    },
+    {
+        "internal": {
+            "key": "qHodQ4dxMqxcAt8cMGuE8Q=="
+        },
+        "tc": {
+            "action": "gcm-recover",
+            "nonce": "JPwV6k5aLtBU1Tw2",
+            "msg1": {
+                "ciphertext": "GBx/fO4Lk/hKc0u3bpg=",
+                "associated_data": "oZ0C",
+                "auth_tag": "UM+mh2SUFobDsNptBkaVGg=="
+            },
+            "msg2": {
+                "ciphertext": "wDxr8glLUx9f5+vObQ==",
+                "associated_data": "XV2zudrwkrj49LNRWow=",
+                "auth_tag": "adCFRlx9Vp2uDAZ9H6yQKw=="
+            },
+            "msg3": {
+                "ciphertext": "VtcYYay8xC8Whyj4Xw8r",
+                "associated_data": "z8y60Xo9",
+                "auth_tag": "k301f1ppjfx2LaRJKX6WLw=="
+            },
+            "msg4": {
+                "ciphertext": "cULT8XgSsFFDJcv8Ffv48ln3aGdlrw==",
+                "associated_data": "ZBPF7S2TLRATmrUtjg=="
+            }
+        },
+        "expected_result": {
+            "msg4_tag": "k03i2XY/h4QVk4FFxZw0TA=="
+        }
+    },
+    {
+        "internal": {
+            "key": "PYYJM/N3TrxHtKVrBtwchQ=="
+        },
+        "tc": {
+            "action": "gcm-recover",
+            "nonce": "j+vDAbx5M3zVH7GJ",
+            "msg1": {
+                "ciphertext": "v19X4xAp2ytaFvpJ4NM/f2Hk17twq/UDFY63FQ==",
+                "associated_data": "+39tJ2dzrn6spyrX7aR2zg==",
+                "auth_tag": "zh5OL2bP6a6osN2+85GQgQ=="
+            },
+            "msg2": {
+                "ciphertext": "GHq0aQNPSDuNAk2Zcgc9VDJ9x+lVWZpjhltk4sc079tpFGM7pw==",
+                "associated_data": "MOo=",
+                "auth_tag": "OJPFY76YXLsJQBg5QHKJGA=="
+            },
+            "msg3": {
+                "ciphertext": "RthMDnbg+KBkGjsLNnIqN2sXl6rm3jUceFyVIw==",
+                "associated_data": "4LDBLA==",
+                "auth_tag": "kKBjUxVDa88Szy3qZWx2rw=="
+            },
+            "msg4": {
+                "ciphertext": "D2Z9iY5MVotuE3tu",
+                "associated_data": "wKhnb75meJcrKVqRs0cbqts4kg=="
+            }
+        },
+        "expected_result": {
+            "msg4_tag": "74OJD7rijmpRwtPE90Dy3w=="
+        }
+    },
+    {
+        "internal": {
+            "key": ""
+        },
+        "tc": {
+            "action": "gcm-recover",
+            "nonce": "Nzsh6Yj+i4bouKo5",
+            "msg1": {
+                "associated_data": "b1e3G4Wk58aqi/dsDQ==",
+                "auth_tag": "F/CewC++YO9URF2fVA82kg==",
+                "ciphertext": "XT9dyntxdlM6gkvqi1uv7DBx4qtN05vno5/4ZTMYExm1WzG1"
+            },
+            "msg2": {
+                "associated_data": "QCSWZJUPpMATbeHpUS6LVaze",
+                "auth_tag": "ZF6FpHLHBkYfNWp9I5qUUA==",
+                "ciphertext": "aOHDIZQFhGT6jj0QSyWi7Zmnk2mEQvXune66pgLYnlCO"
+            },
+            "msg3": {
+                "associated_data": "/AY=",
+                "auth_tag": "pwsH0sGTMz7vD4LBrHfCwQ==",
+                "ciphertext": "mDxTmnesZA2+Hk0uw+3no5FcS+u9O8jYjDeHT/Q="
+            },
+            "msg4": {
+                "associated_data": "Ar47qmSzyfAaYBFq",
+                "ciphertext": "7WMTOk9nZmSThdc6p8e42k8J6qyaMnrUd3/PIk6ZfJ3F3IFOIGU="
+            }
+        },
+        "expected_result": {
+            "msg4_tag": "mmA3V0PEI0ynos8BltRVhw=="
+        }
+    }
+]
